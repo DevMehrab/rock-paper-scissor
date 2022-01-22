@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rock paper scissor</title>
+</head>
+
+<body>
+
+    <!-- score board -->
+
+    <div class="score-board">
+        <div class="player">
+            <h3>You</h3>
+            <h3 class="player-score">0</h3>
+        </div>
+        <div class="computer">
+            <h3>computer</h3>
+            <h3 class="computer-score">0</h3>
+        </div>
+    </div>
+
+    <!-- intro section -->
+
+    <div class="intro">
+        <h2>Rock Paper Scissor</h2>
+        <button class="play">Lets play</button>
+    </div>
+
+    <!-- game section -->
+
+    <div class="game-section hide">
+        <h2 class="result">Choose an option</h2>
+        <div class="hands">
+            <img src="image/rock.png" class="player-hand">
+            <img src="image/rock.png" class="computer-hand">
+        </div>
+        <div class="versus">
+            <h3>You</h3>
+            <h3>Computer</h3>
+        </div>
+        <div class="options">
+            <button class="rock">rock</button>
+            <button class="paper">paper</button>
+            <button class="scissors">scissor</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
